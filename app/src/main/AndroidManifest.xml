@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.APKHorarioChofer"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivityF11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF10"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityFAddAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF23"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF22"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF21"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF18"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF9"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF8"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF7"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF20"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF17"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityF1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
